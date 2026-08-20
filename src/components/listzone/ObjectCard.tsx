@@ -28,7 +28,7 @@ export function ObjectCardView({
       className={cn(
         "surface-card flex items-center gap-3 p-2 transition",
         dragging && "shadow-[var(--shadow-lift)] ring-2 ring-primary",
-        compact && "w-[190px]",
+        compact && "w-[230px] gap-2 p-1.5",
       )}
     >
       <button
